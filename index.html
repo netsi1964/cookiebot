@@ -17,7 +17,10 @@
     </div>
     <h1>Cookiebot test</h1>
     <button onclick="gtag('event', 'a')">Event a</button>
-    <script type="text/plain" data-cookieconsent="nødvendig">alert('nødvendig');</script>
+    <script type="text/plain" data-cookieconsent="nødvendig">
+        alert('nødvendig');
+        window.addEventListener('error', (e) => alert('error: ' + e.message))
+    </script>
     <script type="text/plain" data-cookieconsent="preferences">alert('preferences');</script>
     <script type="text/plain" data-cookieconsent="statistics">alert('statistics');</script>
     <script type="text/plain" data-cookieconsent="marketing">alert('marketing');</script>
