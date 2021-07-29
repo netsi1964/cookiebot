@@ -10,7 +10,7 @@ It does only a few things:
 * It shows alerts for each of the categories which the user gives consent to
 * Linked to a Google Analytics test also. You should get an error while clicking the event button, if consent to statistics it not given.
 
-# Use attributes on `script` tag to place code in category manually
+### Use attributes on `script` tag to place code in category manually
 You can also see how you can add some script in a cookiebot consent category:
 
 `script type="text/plain" data-cookieconsent="statistics"` would block the script from running until consent is given by the user to the `statistics` category of cookies.
