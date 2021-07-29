@@ -1,5 +1,5 @@
 # cookiebot
-Test af cookiebot
+Simple test of cookiebot
 
 This is a simple test of [Cookiebot](https://www.cookiebot.com/da/). This inserts a cookiebot based cookie consent dialogue.
 
